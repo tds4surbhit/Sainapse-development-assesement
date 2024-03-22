@@ -1,0 +1,65 @@
+.FileUpload {
+    margin-top: 50px; /* Adjust the distance from the top as needed */
+    display: inline-block;
+    position: relative;
+    overflow: hidden;
+    background-color: aqua; /* Background color */
+    border: 2px solid aqua; /* Border color */
+    border-radius: 5px; /* Rounded corners */
+    padding: 10px 20px; /* Padding inside the box */
+    cursor: pointer;
+}
+
+.FileUpload input[type=file] {
+    position: absolute;
+    top: 0;
+    left: 0;
+    opacity: 0;
+    cursor: pointer;
+}
+
+.FileUpload label {
+    display: block;
+}
+
+/* Optional: Style the text inside the box */
+.FileUpload span {
+    font-family: Arial, sans-serif;
+    color: #333;
+    font-size: 16px;
+}
+
+/* Optional: Hover effect */
+.FileUpload:hover {
+    background-color: #7fc7af; /* Change background color on hover */
+    border-color: #7fc7af; /* Change border color on hover */
+}
+
+
+.display-table {
+    margin-top: 20px; /* Adjust the distance from the top as needed */
+    background-color: #f0f0f0; /* Background color for the table container */
+    padding: 20px; /* Add padding to the container */
+}
+
+.display-table table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.display-table th, .display-table td {
+    border: 1px solid #ddd; /* Border between cells */
+    padding: 8px;
+    text-align: left;
+}
+
+.display-table th {
+    background-color: #4CAF50; /* Header background color */
+    color: white;
+}
+
+.display-table h2 {
+    background-color: #4CAF50; /* Background color for the h2 element */
+    color: white;
+    padding: 10px;
+}

@@ -1,0 +1,148 @@
+/* WelcomePage.css */
+
+
+/* WelcomePage.css */
+
+.welcome-page {
+    font-family: Arial, sans-serif;
+    background-image: url(Photos/Screenshot\ 2024-03-22\ at\ 6.33.06\ PM.png); /* Background image for the entire page */
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+  }
+  
+  .header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    color: #fbfbfb; /* Set text color for the header */
+    background-color: transparent; /* Make the header background transparent */
+  }
+  
+  .left-top {
+    font-size: 24px;
+    padding-left: 300px;
+  }
+
+
+  .middle nav ul {
+    text-decoration: none;
+    list-style: none;
+    padding-right: 100px;
+    display: flex;
+    color: #fcfcfc !important;
+  }
+  
+  .middle nav ul li {
+    margin-right: 20px;
+    color: #ffffff;
+  }
+  
+  .right button {
+    font-size: 18px;
+    padding: 8px 16px;
+    background-color: transparent;
+    color: #fbfbfb;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  .right button:hover {
+    background-color: rgba(255, 255, 255, 0.2);
+  }
+  
+  .background {
+    display: flex;
+    justify-content: center;
+    color: #f8f8f8;
+    align-items: center;
+    height: calc(100vh - 60px); /* Adjust based on header height */
+  }
+  
+  .background h1 {
+    font-size: 72px;
+  }
+  
+  
+  
+  /* LoginPage.css */
+  
+  /* LoginPage.css */
+
+.modal {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .modal-content {
+    background-color: #fff;
+    padding: 70px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+    position: relative;
+    width: 500px; /* Adjust the width as needed */
+  }
+  
+  .close {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    cursor: pointer;
+    font-size: 24px;
+    color: #aaa;
+  }
+  
+  .close:hover {
+    color: #555;
+  }
+  
+  form {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  label {
+    margin-bottom: 8px;
+  }
+  
+  input {
+    padding: 8px;
+    margin-bottom: 16px;
+    width: 100%; /* Set input width to 100% */
+  }
+  
+  button {
+    padding: 8px 16px;
+    background-color: #3498db;
+    color: #ffffff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-right: 8px;
+  }
+  
+  button:hover {
+    background-color: #2980b9;
+  }
+  
+  a {
+    margin-top: 8px;
+    text-align: right;
+    color: #fefefe;
+    text-decoration: none;
+  }
+  
+  a:hover {
+    text-decoration: underline;
+  }
+  
+  
